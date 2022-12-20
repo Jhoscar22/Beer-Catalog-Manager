@@ -51,7 +51,7 @@ The repository contains the database file `beerdb.sql` and the web app files. To
 ![Review page](/readme/resenias.png)
 
 #### Video demonstration
-![Video demonstration](/readme/recording.mov)
+https://user-images.githubusercontent.com/68628848/208773183-e92415fa-9167-411a-a4d5-ed8830193976.mov
 
 ## Made with
 
