@@ -65,7 +65,7 @@ if(!mysqli_stmt_prepare($select_stmt, $select_tmplt)){echo "SQL preparation fail
 <div class="row" style="padding: 0px 30px;">
     <div class="card col-md-4">
         <h2>Imagen</h2>
-        <img src="img/<?php echo $beer['Imagen'];?>" style="height:430px; margin:auto;">
+        <img src="../img/<?php echo $beer['Imagen'];?>" style="height:430px; margin:auto;">
     </div>
     <div class="card col">
         <h2>Explorar</h2>

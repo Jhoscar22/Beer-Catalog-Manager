@@ -344,7 +344,7 @@ switch($Accion){
                 <td><?php echo $beer['Nombre']; ?></td>
                 <td><?php echo $beer['Casa']; ?></td>
                 <td>
-                    <img src="img/<?php echo $beer['Imagen'];?>" height="70">
+                    <img src="../img/<?php echo $beer['Imagen'];?>" height="70">
                 </td>
                 <td>
                     <form method="POST">
