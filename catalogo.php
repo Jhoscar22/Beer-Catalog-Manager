@@ -40,7 +40,7 @@ switch($Accion){
 
     <div class="col-md-3">   
         <div class="card">
-            <img class="card-img-top" src="img/<?php echo $beer['Imagen']?>">
+            <img class="card-img-top" style="width: auto; height:250px;" src="img/<?php echo $beer['Imagen']?>">
             <div class="card-body">
                 <h4 class="card-title"><?php echo $beer['Nombre'];?></h4>
                 <form method="POST">

@@ -1,12 +1,9 @@
 <?php
-$dbHost="localhost";
-$dbUsername="root";
-$dbPassword="";
-$dbName="beerdb";
-$XamppPort="8111";
+
+include("config.php");
 
 try{
-    $conn=mysqli_connect($dbHost, $dbUsername, $dbPassword, $dbName, $XamppPort);
+    $conn=mysqli_connect($Host, $User, $Password, $Database, $Port);
     //if($conn){echo "Conectado exitosamente";}
 } catch(Exception $exept) {
     echo $exept->getMessage();
